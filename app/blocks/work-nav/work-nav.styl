@@ -1,0 +1,54 @@
+.work-nav
+  display block
+  width 100%
+  &__container
+    width 38.9vw
+    padding-top 5.1vw
+    margin 0 auto
+    &:after
+      content ""
+      clear both
+      display table
+  &__btn
+    background-color white
+    border 1px solid #586686
+    color #586686
+    font-family 'Geomanist'
+    font-size 18px
+    font-weight 700
+    display block
+    text-decoration none
+    width 14.9vw
+    height 3.6vw
+    line-height 3.6vw
+    letter-spacing 2px
+    text-align center
+    text-transform uppercase
+    transition all 0.3s ease
+    cursor pointer
+    &:hover
+      background-color #586686
+      color white
+    &_left
+      float left
+    &_right
+      float right
+
+@media screen and (max-width: 1023px)
+  .work-nav
+    &__container
+      width 50vw
+      padding-top 100px
+    &__btn
+      width 21vw
+      height 5vw
+      line-height 5vw
+
+@media screen and (max-width: 767px)
+  .work-nav
+    &__container
+      width 80%
+    &__btn
+      width 46%
+      height 35px
+      line-height 35px

@@ -1,0 +1,18 @@
+extends /blocks/layout-default/layout-default
+include /blocks/menu/menu
+include /blocks/quick-menu/quick-menu
+include /blocks/works/ivento-page/ivento/ivento
+include /blocks/works/ivento-page/ivento-logo/ivento-logo
+include /blocks/works/ivento-page/ivento-screens/ivento-screens
+include /blocks/footer/footer
+
+block head
+    - var pageTitle = 'CSSSR Project Template';
+
+block content
+    +menu
+    +quick-menu
+    +ivento
+    +ivento-logo
+    +ivento-screens
+    +footer

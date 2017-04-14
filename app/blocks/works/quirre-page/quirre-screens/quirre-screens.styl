@@ -1,0 +1,104 @@
+.quirre-screens
+  display block
+  width 100%
+  &__container
+    margin-top 177px
+    position relative
+    &:after
+      display table
+      content ''
+      clear both
+  &__tablet
+    display block
+    margin 0 auto
+    width 35vw
+    margin-left 31.8vw
+  &__laptop
+    top 53.7vw
+    width 64.2vw
+    position absolute
+    right 0
+  &__info
+    float left
+    width 24vw
+    margin 8.5vw 0 0 20vw
+  &__web
+    color #343434
+    font-family 'Gabriola'
+    font-size 24px
+    font-weight 400
+    clear both
+    text-align  center
+    margin-top 60.5vw
+    font-style italic
+  &__link
+    font-family 'Gabriola'
+    font-size 24px
+    font-weight 400
+    text-decoration none
+    color #343434
+    clear both
+    text-align center
+    display block
+    margin-top 2.4vw
+    letter-spacing 0.1vw
+    padding-bottom 1.3vw
+    font-style italic
+    &:hover
+      text-decoration underline
+
+&__container
+  width 38.9vw
+  padding-top 5.1vw
+  margin 0 auto
+  &:after
+    content ""
+    clear both
+    display table
+&__btn
+  background-color white
+  border 1px solid #586686
+  color #586686
+  font-family 'Geomanist'
+  font-size 18px
+  font-weight 700
+  display block
+  text-decoration none
+  width 14.9vw
+  height 3.6vw
+  line-height 3.6vw
+  letter-spacing 2px
+  text-align center
+  text-transform uppercase
+  transition all 0.3s ease
+  cursor pointer
+  &:hover
+    background-color #586686
+    color white
+  &_left
+    float left
+  &_right
+    float right
+
+@media screen and (max-width: 1023px)
+  .quirre-screens
+    &__container
+      margin-top 100px
+    &__tablet
+      width 75vw
+      margin 0 auto
+      max-width 500px
+    &__info
+      float none
+      width 75vw
+      margin 60px auto 0
+      display block
+      max-width 500px
+    &__laptop
+      position static
+      width 75vw
+      margin 60px auto 0
+      float right
+      max-width 500px
+    &__web
+      margin-top 100px

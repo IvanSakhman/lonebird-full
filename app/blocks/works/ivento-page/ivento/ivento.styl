@@ -1,0 +1,43 @@
+.ivento
+  display block
+  width 100%
+  background-image url("../img/ivento.png")
+  height 45.1vw
+  position relative
+  background-attachment fixed
+  background-repeat no-repeat
+  background-size cover
+  &__wrapper
+    position relative
+    top 15.8vw
+    left 37.3vw
+    width 22.5vw
+    height 9.7vw
+  &__container
+    width 100%
+    height 100%
+    background-color #ebfcff
+    opacity 0.2
+    position absolute
+  &__title
+    color white
+    font-family 'Loaded'
+    font-size 36px
+    font-weight 400
+    position absolute
+    letter-spacing 0.1vw
+    top 44%
+    left -2%
+
+@media screen and (max-width: 1023px)
+ .ivento
+    &__title
+      top 34%
+      left -17%
+      font-size 32px
+
+@media screen and (max-width: 767px)
+  .ivento
+    &__title
+      top 25%
+      font-size 26px

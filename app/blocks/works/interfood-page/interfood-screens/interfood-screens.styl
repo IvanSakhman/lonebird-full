@@ -1,0 +1,55 @@
+.interfood-screens
+  display block
+  width 100%
+  &__container
+    position relative
+  &__laptop
+    position absolute
+    right 0
+    top 1vw
+    z-index 3
+    width 71.1vw
+  &__plants
+    position absolute
+    top 16.7vw
+    left 11.6vw
+    width 37.7vw
+  &__text
+    color #343434
+    font-size 24px
+    font-weight 400
+    line-height 28px
+    font-family 'Gabriola'
+    width 25vw
+    margin 0 auto
+    padding-top 81.1vw
+    text-align center
+    margin-bottom 24.6vw
+  &__lonebird
+    font-size 24px
+    font-weight 400
+    line-height 27px
+    font-family 'NellaSueDemo'
+    margin-right 10px
+
+@media screen and (max-width: 1023px)
+  .interfood-screens
+    &__laptop, &__plants
+      position static
+      display block
+    &__laptop
+      float right
+      width 95vw
+    &__plants
+      width 70vw
+      margin 0 auto
+      padding-top 60px
+    &__text
+      width 75vw
+      padding-top 80px
+      margin 0 auto
+
+@media screen and (max-width: 424px)
+  .interfood-screens
+    &__plants
+      width 90vw

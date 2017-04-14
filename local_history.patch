@@ -1,0 +1,32 @@
+Index: app/blocks/brand/thebrand/thebrand.jade
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/blocks/brand/thebrand/thebrand.jade	(revision )
++++ app/blocks/brand/thebrand/thebrand.jade	(revision )
+@@ -6,4 +6,4 @@
+             h1 While choosing a name for our company we were truly inspired by a well-known Czech area — Mia Mio. It is considered to be a centre of Czech fashion, with lots of small designers stores, beautiful showrooms and galleries.
+             .founder Crzÿstóv Petérszskâ —founder
+             .brand__img
+-                img(src="/assets/img/brand/miamio.png")
++                
+Index: app/blocks/brand/thebrand/thebrand.styl
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/blocks/brand/thebrand/thebrand.styl	(revision )
++++ app/blocks/brand/thebrand/thebrand.styl	(revision )
+@@ -16,8 +16,8 @@
+        text-align center
+        margin-top: 45px
+        font-family: 'GaramondPremrPro()'
+-       
+-       
++
++
+   .founder
+     width 253px
+     padding-top: 40px
+\ No newline at end of file

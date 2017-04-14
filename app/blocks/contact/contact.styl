@@ -1,0 +1,243 @@
+.contact
+  width 100%
+  background-color #6b7bf3
+  min-height 100vh
+  color #6cc
+  display
+  &__container
+    display flex
+  &__main
+    width 40vw
+    position relative
+    &:after
+      content ""
+      display block
+      width 2px
+      height 42.5vw
+      background-color #6cc
+      position absolute
+      top 46px
+      right -4px
+  &__title
+    margin 2.5vw 4.25vw 0 0
+    text-align right
+    font-family 'Geomanist'
+    font-weight 900
+    font-size 7.85vw
+    letter-spacing 0.8vw
+    &_mobile
+      display none
+    &:first-of-type
+      margin-top 10.1vw
+    &:last-of-type
+      letter-spacing 1.15vw
+  &__additional
+    float right
+    margin 1.6vw 3.7vw 0 0
+    width 19.7vw
+    text-align right
+    font-size 1vw
+    font-weight 300
+    line-height 1.8vw
+    font-family 'Comme'
+  &__info
+    width 60vw
+  &__block
+    margin-top 2.55vw
+    width 45.5vw
+    margin-left 4.3vw
+    &_s
+      margin-top 3vw
+    &_m
+      margin-top 3.2vw
+    &:first-of-type
+      margin-top 10.7vw
+    &:after
+      content ""
+      display table
+      clear both
+  &__letter
+    font-weight 900
+    float left
+    font-family 'Geomanist'
+    font-size 3vw
+    letter-spacing 0.5vw
+  &__phone
+    float left
+    letter-spacing 0.095vw
+    font-size 2.1vw
+    font-weight 400
+    margin 2.9vw 0 0 2vw
+    font-family 'Comme'
+    &_first
+      letter-spacing 0.11vw
+      margin 0.6vw 0 0 2vw
+  &__email
+    margin-left 5.4vw
+    font-size 2.1vw
+    padding-top 0.4vw
+    letter-spacing 0.11vw
+    font-family 'Comme'
+  &__pic
+    display flex
+    width 320px
+    margin-left 6.3vw
+    justify-content space-between
+  &__link
+    text-decoration none
+    width 2.4vw
+  &__icon
+    width 51px
+    height 51px
+  &__form
+    padding-bottom 88px
+    font-family 'Comme'
+    &:after
+      content ""
+      display table
+      clear both
+  &__textarea
+    -webkit-appearance none
+    -moz-appearance none
+    font-size 18px
+    font-weight 300
+    padding 5px
+    color #a9c7c7
+    border none
+    float left
+    margin-left 2.1vw
+    width 38.4vw
+    height 6.7vw
+  &__layout
+    padding-top 20px
+    margin-left 6.7vw
+    clear both
+    float left
+    width 19.5vw
+  &__input-phone, &__input-email
+    float left
+    color #a9c7c7
+    font-size 18px
+    font-weight 300
+    width 300px
+    height 40px
+    -webkit-appearance none
+    -moz-appearance none
+    padding 5px
+    margin-bottom 9px
+    border none
+  &__label
+    color #a9c7c7
+    font-size 14px
+    font-weight 300
+    margin 47px 0 0 55px
+    float left
+    width 15vw
+  &__checkbox
+    margin-right 13px
+  &__submit
+    background-color black
+    -webkit-appearance none
+    -moz-appearance none
+    clear both
+    display block
+    float right
+    height 51px
+    color white
+    font-size 21px
+    font-weight 300
+    border none
+    position relative
+    top 0
+    right 2.3vw
+    width 280px
+    margin 1px 0.2vw 0 0
+
+@media screen and (max-width: 1023px)
+  .contact
+    &__container
+      flex-wrap wrap
+    &__main
+      width 100%
+    &__info
+      width 100%
+    &__title
+      display none
+      font-size 45px
+      margin 80px 0 0
+      &_mobile
+        display block
+        width 100%
+        text-align center
+    &__additional
+      width 80%
+      text-align center
+      margin 0 auto
+      float none
+      font-size 20px
+      line-height 28px
+      &:after
+        content ""
+        display block
+        width 80vw
+        height 2px
+        background-color #6cc
+        position absolute
+        bottom -5px
+        left 50%
+        transform translateX(-50%)
+    &__block
+      width 80%
+      margin 0 auto
+      &:first-of-type
+        margin-top 25px
+    &__letter
+      font-size 35px
+    &__phone
+      font-size 18px
+      float right
+      margin 0 0 20px
+      &:last-of-type
+        clear both
+    &__email
+      float right
+      font-size 18px
+      margin 0 0 20px
+    &__pic
+      float right
+      width 50%
+      margin-bottom 20px
+    &__link
+      width 10%
+    &__textarea
+      width calc(100% - 77px)
+      height 150px
+      margin-left 25px
+    &__layout
+      margin-left 75px
+      width 40%
+    &__input-email, &__input-phone
+      width 100%
+    &__label
+      width 40%
+
+@media screen and (max-width: 600px)
+  .contact
+    &__letter
+      float none
+    &__pic
+      width 100%
+      margin-top 10px
+    &__textarea
+      margin 0
+      width 100%
+    &__layout
+      padding-top 10px
+      width 100%
+      margin 0
+    &__label
+      margin 15px 0 0
+      width 100%
+    &__submit
+      width 35%
+      margin-top 40px

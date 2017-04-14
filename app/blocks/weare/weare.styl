@@ -1,0 +1,78 @@
+.weare
+  display block
+  width 100%
+  &__container
+    width 100%
+    margin-top 9.4vw
+    display flex
+  &__info
+    width 52.7vw
+    display flex
+    flex-direction column
+    padding-top 17px
+    align-items flex-end
+  &__name
+    text-align right
+    margin-right 7.6%
+    letter-spacing 1px
+    font-size 21px
+    font-weight 700
+    font-family 'Geomanist'
+  &__text
+    text-align right
+    margin 43px 7.6% 0 0
+    width 560px
+    font-size 21px
+    font-weight 300
+    font-family 'Geomanist'
+    line-height 26px
+    &_second
+      margin-top 80px
+    &:last-of-type
+      width 600px
+      margin 80px 7.6% 20px 0
+  &__pink
+    background-color #ffcfdd
+    width 47.3vw
+    height 420px
+  &__lonebird
+    margin 184px 0 0 87px
+    font-size 111px
+    letter-spacing 9px
+    font-family 'MyriadPro'
+
+@media screen and (max-width: 1440px)
+  .weare
+    &__text
+      width 80%
+      &_second
+        margin-top 75px
+      &:last-of-type
+        width 80%
+        margin-top 75px
+    &__lonebird
+      font-size 70px
+      margin-left 70px
+
+@media screen and (max-width: 1023px)
+  .weare
+    &__container
+      flex-wrap wrap
+    &__info
+      width 100%
+    &__pink
+      width 100%
+      height 300px
+      position relative
+    &__text
+      margin-top 25px
+      &:last-of-type
+        margin-top 25px
+    &__lonebird
+      width 100%
+      font-size 47px
+      text-align center
+      margin 0
+      position absolute
+      top 50%
+      transform translateY(-50%)

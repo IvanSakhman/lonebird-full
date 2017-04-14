@@ -1,0 +1,18 @@
+extends /blocks/layout-default/layout-default
+include /blocks/menu/menu
+include /blocks/quick-menu/quick-menu
+include /blocks/works/lonebirdphotos-page/lonebirdphotos/lonebirdphotos
+include /blocks/works/lonebirdphotos-page/lonebirdphotos-logo/lonebirdphotos-logo
+include /blocks/works/lonebirdphotos-page/lonebirdphotos-screens/lonebirdphotos-screens
+include /blocks/footer/footer
+
+block head
+    - var pageTitle = 'CSSSR Project Template';
+
+block content
+    +menu
+    +quick-menu
+    +lonebirdphotos
+    +lonebirdphotos-logo
+    +lonebirdphotos-screens
+    +footer

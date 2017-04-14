@@ -1,0 +1,88 @@
+.weetex-screens
+  width 100%
+  display block
+  &__container
+    position relative
+    padding-top 45px
+  &__laptop
+    position absolute
+    right 0
+    top 66px
+    z-index 3
+    width 69.5vw
+  &__ethiopian
+    margin 22.3vw 0 0 6.3vw
+    width 47.1vw
+  &__desc
+    color #343434
+    font-size 24px
+    font-family 'Gabriola'
+    font-weight 400
+    width 20.4vw
+    position absolute
+    top 60.7vw
+    line-height 28px
+    letter-spacing 0.05vw
+    text-align center
+    right 21.5vw
+  &__design
+    font-size 24px
+    color #343434
+    font-weight 400
+    font-family 'BerlinSansFB-Reg'
+    margin-right 10px
+  &__info
+    color #343434
+    font-size 24px
+    font-weight 400
+    font-family 'Gabriola'
+    width 25vw
+    margin 9.8vw auto 0
+    text-align center
+    line-height 28px
+  &__lonebird
+    font-family 'NellaSueDemo'
+    color #343434
+    font-size 24px
+    font-weight 400
+    margin-right 10px
+  &__flower
+    display block
+    width 8.7vw
+    margin 9.6vw auto 0
+
+@media screen and (max-width: 1023px)
+  .weetex-screens
+    &__laptop
+      position static
+      display block
+      width 75vw
+      float right
+    &__ethiopian
+      float none
+      width 75vw
+      display block
+      margin 0 auto
+      padding-top 60px
+    &__desc
+      position static
+      width 75vw
+      margin 80px auto 0
+    &__info
+      width 75vw
+      margin 80px auto 0
+    &__flower
+      width 100px
+
+@media screen and (max-width: 425px)
+  .weetex-screens
+    &__laptop
+      width 95vw
+    &__ethiopian
+      padding-top 60px
+    &__desc
+      margin-top 60px
+    &__info
+      margin-top 60px
+    &__flower
+      width 80px

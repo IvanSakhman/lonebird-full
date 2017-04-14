@@ -1,0 +1,42 @@
+mixin contact()
+	section.contact&attributes(attributes)
+		.contact__container
+			.contact__main
+				h1.contact__title CONT
+				h1.contact__title ACTS
+				h1.contact__title.contact__title_mobile CONTACTS
+				p.contact__additional.
+					Contact us if you are in need of idea,
+					or any kind of digital creativity.
+			.contact__info
+				.contact__block
+					p.contact__letter P.
+					p.contact__phone.contact__phone_first +971 56 86 70984 / Whatsapp (UAE)
+					p.contact__phone +7 916 000 00 00 (Russia/rus/eng)
+				.contact__block
+					p.contact__letter E.
+					p.contact__email book@lonebirddesign.com
+				.contact__block.contact__block_s
+					p.contact__letter S.
+					p.contact__pic
+						a(href="#").contact__link
+							img(src="assets/img/linkedin_bg.png" alt="linkedin").contact__icon
+						a(href="#").contact__link
+							img(src="assets/img/upwork_bg.png" alt="upwork").contact__icon
+						a(href="#").contact__link
+							img(src="assets/img/twitter_bg.png" alt="twitter").contact__icon
+						a(href="#").contact__link
+							img(src="assets/img/facebook_bg.png" alt="facebook").contact__icon
+						a(href="#").contact__link
+							img(src="assets/img/instagram_bg.png" alt="instagram").contact__icon
+				.contact__block.contact__block_m
+					p.contact__letter M.
+					form.contact__form
+						textarea.contact__textarea(placeholder="Type something here")
+						.contact__layout
+							input(type="text" placeholder="Your phone number" ).contact__input-phone
+							input(type="email" placeholder="Your email" ).contact__input-email
+						label.contact__label
+							input(type="checkbox").contact__checkbox
+							| Would you prefer to use Whatsapp
+						input(type="submit" value="Send").contact__submit

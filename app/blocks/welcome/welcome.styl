@@ -1,0 +1,45 @@
+.welcome
+  display block
+  width 100%
+  background-image url("../img/hills.png")
+  height 45.1vw
+  position relative
+  background-attachment fixed
+  background-repeat no-repeat
+  background-size cover
+  &__header
+    padding-top 2.55vw
+    width 89.3vw
+    margin-left 5.7vw
+    &:after
+      content ""
+      clear both
+      display table
+  &__container
+    width 32.9vw
+    padding-top 10.8vw
+    margin 0 auto
+    position relative
+    height 15vw
+  &__title
+    display block
+    margin 0 auto
+    width 100%
+  &__subtitle
+    width 13.1vw
+    font-family 'NoteraPersonalUseOnly'
+    font-size 5.2vw
+    text-align center
+    color #fff
+    margin -0.1vw auto
+
+@media screen and (max-width: 1023px)
+  .welcome
+    height 80vw
+    background-position center
+    &__container
+      width 70vw
+      padding-top 25vw
+    &__subtitle
+      width 37vw
+      font-size 15vw

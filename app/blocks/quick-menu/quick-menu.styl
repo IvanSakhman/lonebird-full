@@ -1,0 +1,37 @@
+.quick-menu
+  position fixed
+  z-index 9
+  margin 29.8vw 0 0 6.6vw
+  &__item
+    width 14.3vw
+    height 2.6vw
+    position relative
+    &_recent
+      transform rotateZ(-4deg)
+    &_contact
+      margin-top 34px
+      transform rotateZ(9deg)
+    &_about
+      margin-top 40px
+  &__bg
+    width 0
+    position absolute
+    background-color #2e2e2d
+    height 100%
+    z-index 10
+    &_show
+      width 100%
+      -webkit-transition width 1s
+      transition width 1s
+  &__link
+    position absolute
+    color white
+    font-family "Geomanist"
+    font-size 1.5vw
+    font-weight 700
+    z-index 11
+    text-align center
+    top 50%
+    left 50%
+    transform translate(-50%, -50%)
+    width 100%

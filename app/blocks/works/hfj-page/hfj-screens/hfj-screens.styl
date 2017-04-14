@@ -1,0 +1,87 @@
+.hfj-screens
+  display block
+  width 100%
+  &__container
+    padding-top 119px
+    margin 0 auto
+    width 68.5vw
+    height 38.9vw
+    display flex
+    justify-content space-between
+  &__item
+    height 100%
+  &__text
+    font-family "Geomanist"
+    font-size 19px
+    font-weight 300
+    width 50vw
+    margin 110px auto 0
+    text-align center
+  &__lonebird
+    font-family "NellaSueDemo"
+    font-size 24px
+    font-weight 400
+    margin-right 10px
+    letter-spacing 2px
+  &__add
+    color #343434
+    font-family 'Gabriola'
+    font-size 24px
+    font-weight 400
+    font-style italic
+    text-align center
+    letter-spacing 2px
+    width 60vw
+    margin 85px auto 0
+  &__web
+    color #343434
+    font-family 'Gabriola'
+    font-size 24px
+    font-weight 400
+    clear both
+    text-align  center
+    margin-top 6.7vw
+    font-style italic
+  &__link
+    font-family 'Gabriola'
+    font-size 24px
+    font-weight 400
+    text-decoration none
+    color #343434
+    clear both
+    text-align center
+    display block
+    margin-top 2.4vw
+    letter-spacing 0.1vw
+    padding-bottom 1.3vw
+    font-style italic
+    &:hover
+      text-decoration underline
+
+@media screen and (max-width: 1280px)
+  .hfj-screens
+    &__container
+      padding-top 70px
+
+@media screen and (max-width: 1023px)
+  .hfj-screens
+    &__container
+      padding-top 60px
+      width 75vw
+    &__text
+      margin-top 60px
+      width 75vw
+    &__add
+      margin-top 60px
+      width 75vw
+
+@media screen and (max-width: 500px)
+  .hfj-screens
+    &__container
+      padding-top 40px
+      flex-direction column
+      height auto
+    &__item
+      width 50vw
+      display block
+      margin 20px auto 0

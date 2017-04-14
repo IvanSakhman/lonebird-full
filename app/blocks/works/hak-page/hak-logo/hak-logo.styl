@@ -1,0 +1,101 @@
+.hak-logo
+  width 100%
+  background-color #fff
+  position relative
+  &__container
+    padding-top 77px
+  &__infinity
+    width 52px
+    margin 0 auto
+    display block
+  &__name
+    color #343434
+    font-family 'BerlinSansFB-Reg'
+    font-size 30px
+    text-align center
+    margin-top 155px
+    letter-spacing 1px
+  &__text
+    text-align center
+    font-family "Gabriola"
+    color #343434
+    font-size 24px
+    font-weight 400
+    width 537px
+    margin 34px auto 0
+    line-height 29px
+  &__lonebird
+    font-family "NellaSueDemo"
+    margin-right 10px
+  &__hak
+    font-style bold
+    margin-right 5px
+  &__logo-big
+    width 54.6vw
+    display block
+    margin 111px 0 7.4vw 13.6vw
+  &__laptop
+    &-block
+      position relative
+      left 31.4vw
+      top 6.1vw
+      width 37.4vw
+      height 25.4vw
+      overflow hidden
+    &-frame
+      width 100%
+      height 100%
+      position absolute
+      z-index 3
+    &-inside
+      width 93.3%
+      top 5%
+      left 3.3%
+      height 86%
+      position absolute
+      z-index 2
+  &__desc
+    color #343434
+    font-size 24px
+    font-weight 400
+    font-family 'Gabriola'
+    width 30vw
+    margin 11.2vw 0 0 35vw
+    line-height 28px
+    text-align center
+
+@media screen and (max-width: 1023px)
+  .hak-logo
+    &__text
+      width 75vw
+    &__name
+      margin-top 100px
+    &__laptop-block
+      width 75vw
+      max-width 600px
+      height 53vw
+      position relative
+      margin 80px auto 0
+      top 0
+      left 0
+    &__desc
+      width 75vw
+      margin 80px auto 0
+
+@media screen and (max-width: 767px)
+  .hak-logo
+    &__container
+      padding-top 50px
+    &__name
+      margin-top 80px
+    &__desc
+      position static
+      width 75vw
+      margin 30px auto 0
+
+@media screen and (max-width: 424px)
+  .hak-logo
+    &__name
+      margin-top 60px
+    &__laptop-block
+      margin-top 60px

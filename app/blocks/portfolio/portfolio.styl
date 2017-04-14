@@ -1,0 +1,119 @@
+.portfolio
+  display block
+  width 100%
+  height 67.2vw
+  &__container
+    width 66vw
+    margin 4.1vw auto 0
+  &__recent
+    width 17.3vw
+    display block
+    margin-left 22.6vw
+  &__block
+    display block
+    &_mobile
+      display none
+  &__row
+    display flex
+    justify-content space-between
+    align-content center
+    margin 8.2vw auto 0
+    height 12.2vw
+  &__item
+    position relative
+    width 33.33%
+  &__element
+    max-width 100%
+    position absolute
+    top 50%
+    left 50%
+    transform translate(-50%,-50%)
+    &_how
+      top 61%
+      left 48%
+      width 20.6vw
+    &_tools
+      top 59%
+      left 52%
+      width 14.3vw
+    &_village
+      top 60%
+      left 57%
+      width 19.1vw
+    &_hands
+      left 48%
+      width 12.2vw
+    &_flower
+      width 12.3vw
+    &_color
+      top 65%
+      left 55.8%
+      width 14.3vw
+    &_ferte
+      width 19.2vw
+    &_orange
+      top 48.4%
+      left 48.7%
+      width 9.3vw
+    &_circles
+      left 54%
+      top 52%
+      width 11.8vw
+
+@media screen and (max-width: 1023px)
+  .portfolio
+    height 81vw
+    &__container
+      width 90vw
+    &__recent
+      width 50vw
+      max-width 300px
+      margin 0 auto
+    &__element
+      width 100%
+      &_how
+        top 61%
+        left 48%
+        width 85%
+      &_tools
+        top 59%
+        left 52%
+        width 25vw
+      &_village
+        top 60%
+        left 57%
+        width 25vw
+      &_hands
+        left 48%
+        width 15vw
+      &_flower
+        width 15vw
+      &_color
+        top 65%
+        left 55.8%
+        width 14vw
+      &_ferte
+        width 27vw
+      &_orange
+        top 48.4%
+        left 48.7%
+        width 16vw
+      &_circles
+        left 54%
+        top 52%
+        width 20vw
+
+@media screen and (max-width: 767px)
+  .portfolio
+    height auto
+    &__block
+      display none
+      &_mobile
+        display flex
+        flex-direction column
+    &__element
+      &_mobile
+        display block
+        width 50vw
+        max-width 220px
+        margin 35px auto 0

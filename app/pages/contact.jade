@@ -1,0 +1,10 @@
+extends /blocks/layout-default/layout-default
+include /blocks/menu/menu
+include /blocks/contact/contact
+
+block head
+    - var pageTitle = 'Contact Us';
+
+block content
+    +menu
+    +contact

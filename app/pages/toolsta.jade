@@ -1,0 +1,18 @@
+extends /blocks/layout-default/layout-default
+include /blocks/menu/menu
+include /blocks/quick-menu/quick-menu
+include /blocks/works/toolsta-page/toolsta/toolsta
+include /blocks/works/toolsta-page/toolsta-logo/toolsta-logo
+include /blocks/works/toolsta-page/toolsta-screens/toolsta-screens
+include /blocks/footer/footer
+
+block head
+    - var pageTitle = 'CSSSR Project Template';
+
+block content
+    +menu
+    +quick-menu
+    +toolsta
+    +toolsta-logo
+    +toolsta-screens
+    +footer

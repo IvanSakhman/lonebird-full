@@ -1,0 +1,108 @@
+.toolsta-screens
+  position relative
+  width 100%
+  &__container
+    padding-top 11.3vw
+    &:after
+      content ''
+      display tablet
+      clear both
+  &__text
+    color #343434
+    font-family 'Gabriola'
+    font-style italic
+    font-size 24px
+    font-weight 400
+    width 30vw
+    margin 0 auto
+    text-align center
+    line-height 28px
+  &__laptop
+    position absolute
+    top -42px
+    right 0
+    width 56.8vw
+    display block
+  &__tablet
+    float left
+    width 26.2vw
+    display block
+    margin 34.3vw 0 0 6.7vw
+  &__space
+    display block
+    float right
+    width 58vw
+    margin-top 35.3vw
+  &__lap
+    display block
+    width 44vw
+    margin 94.2vw auto 0
+  &__web
+    color #343434
+    font-family 'Gabriola'
+    font-size 24px
+    font-weight 400
+    clear both
+    text-align  center
+    margin-top 6.8vw
+    font-style italic
+  &__link
+    font-family 'Gabriola'
+    font-size 24px
+    font-weight 400
+    text-decoration none
+    color #343434
+    clear both
+    text-align center
+    display block
+    margin-top 2.4vw
+    letter-spacing 0.1vw
+    padding-bottom 1.3vw
+    font-style italic
+    &:hover
+      text-decoration
+
+@media screen and (max-width: 1023px)
+  .toolsta-screens
+    &__container
+      padding-top 100px
+    &__text
+      width 75vw
+      margin 0 auto
+    &__laptop
+      position static
+      width 75vw
+      float right
+    &__tablet
+      float none
+      width 50vw
+      margin 0 auto
+      display block
+      padding-top 80px
+      max-width 500px
+    &__space
+      float none
+      width 50vw
+      max-width 500px
+      margin 80px auto 0
+    &__lap
+      width 50vw
+      max-width 500px
+      margin 80px auto 0
+
+@media screen and (max-width: 424px)
+  .toolsta-screens
+    &__container
+      padding-top 60px
+    &__tablet
+      padding-top 60px
+      max-width 500px
+    &__space
+      max-width 500px
+      width 75vw
+    &__lap
+      width 75vw
+      max-width 500px
+      margin-top 60px
+    &__web
+      margin-top 80px

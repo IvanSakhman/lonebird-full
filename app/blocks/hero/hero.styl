@@ -1,0 +1,54 @@
+.hero
+  display block
+  background-color #99dcd3
+  height 37.5vw
+  position relative
+  &__img
+    width 9.9vw
+    height 5.5vw
+    margin-left 4.1vw
+    padding-top 2.6vw
+  &__logo
+    width 100%
+  &__pic
+    position absolute
+    width 45vw
+    top 7.3vw
+    left 0
+  &__laptop
+    width 100%
+  &__text
+    position absolute
+    font-family 'CourierNew'
+    color #343434
+    font-size 2.8vw
+    font-weight 700
+    top 12.5vw
+    left 47.2vw
+    width 36.8vw
+    letter-spacing 0.25vw
+    line-height 3.3vw
+  &__lonebird
+    font-family 'MyriadPro'
+    font-size 2.5vw
+    letter-spacing 0.39vw
+    margin-right 1.8vw
+
+@media screen and (max-width: 767px)
+  .hero
+    height 350px
+    &__img
+      display none
+    &__pic
+      width 80vw
+      top 55%
+      max-width 300px
+    &__text
+      font-size 25px
+      position static
+      width 79vw
+      margin 0 auto
+      line-height 28px
+      padding-top 75px
+    &__lonebird
+      font-size 25px

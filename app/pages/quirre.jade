@@ -1,0 +1,18 @@
+extends /blocks/layout-default/layout-default
+include /blocks/menu/menu
+include /blocks/quick-menu/quick-menu
+include /blocks/works/quirre-page/quirre/quirre
+include /blocks/works/quirre-page/quirre-logo/quirre-logo
+include /blocks/works/quirre-page/quirre-screens/quirre-screens
+include /blocks/footer/footer
+
+block head
+    - var pageTitle = 'CSSSR Project Template';
+
+block content
+    +menu
+    +quick-menu
+    +quirre
+    +quirre-logo
+    +quirre-screens
+    +footer

@@ -1,0 +1,22 @@
+mixin menu()
+	section.menu&attributes(attributes)
+		button.menu__open
+			img.menu__open-img(src="assets/img/open.svg" alt="open")
+		.menu__overlay
+			button.menu__close
+				img.menu__close-img(src="assets/img/close.svg" alt="close")
+			.menu__overlay-content
+				.menu__item.menu__item_big
+					a(href="index.html").menu__link.menu__link_main HOME
+				.menu__item.menu__item_big
+					a(href="ferte.html").menu__link.menu__link_main RECENT WORKS
+				.menu__item.menu__item_small
+					a(href="#").menu__link.menu__link_sub LOGO DESIGN
+				.menu__item.menu__item_small
+					a(href="#").menu__link.menu__link_sub WEBSITE DESIGN
+				.menu__item.menu__item_small
+					a(href="#").menu__link.menu__link_sub COMPANY IDENTITY
+				.menu__item.menu__item_big
+					a(href="about.html").menu__link.menu__link_main ABOUT
+				.menu__item.menu__item_big
+					a(href="contact.html").menu__link.menu__link_main CONTACTS
